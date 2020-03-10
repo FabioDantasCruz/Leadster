@@ -1,53 +1,80 @@
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 
 
 .Container{
     width: 100vw;
-    height: 100vh;
-    margin: auto;
-    top: 0px;
+    height: 75vh;
     opacity: 1; 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .div-interna-1{
     background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
-    width: 60%;
-    height: 72%;
+    width: 50vw;
+    height: 70vh;
     background: #414767 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
-    font: Regular 40px/56px Arial Black;
+    font: Regular 40px/43px Arial Black;
+    letter-spacing: 0;
+    color: #FFFFFF;
+
+}
+
+.div-interna-3{
+    background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 70vh;
+    background: #414767 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font: Regular 40px/43px Arial Black;
     letter-spacing: 0;
     color: #FFFFFF;
 
 }
 
 
+
 .div-interna-2{
 
-    width: 40%;
-    height: 72%;
+    width: 50vw;
+    height: 70vh;
     background: #BEF99A 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
-    font: Regular 43px/46px Arial Black;
+    font: Regular 40px/43px Arial Black;
     letter-spacing: 0;
     color: #404668;
 
 }
 
+.div-interna-2 form{
+
+    align-items: flex-start ;
+    align-content: flex-start;
+}
+
+.div-interna-2 input {
+    padding: 10px;
+    border: 1px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    cursor: pointer;
+   
+}
+
 .Container-2{
     
-
     width: 100vw;
-    height: 18%;
+    height: 50vh;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
@@ -61,10 +88,10 @@ body{
 }
 
 .rodape{
-    top: 1154px;
+   
     left: 0px;
     width: 100vw;
-    height: 10%;
+    height: 10vh;
     background:#F3F3F3 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
