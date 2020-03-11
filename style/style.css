@@ -13,6 +13,7 @@ img {max-width: 100%;}
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .logo{width: 153px; height: 33;float: left;}
@@ -20,7 +21,7 @@ img {max-width: 100%;}
 
 .div-interna-1{
     background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
-    width: 50em;
+    width: 40em;
     height: 40em;
     background: #414767 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -38,7 +39,7 @@ img {max-width: 100%;}
 
 .div-interna-2{
 
-    width: 50em;
+    width: 40em;
     height: 40em;
     background: #BEF99A 0% 0% no-repeat padding-box;
     opacity: 1;
