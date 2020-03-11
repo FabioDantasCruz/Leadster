@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="img/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160180630-1"></script>
@@ -36,12 +37,14 @@
   /></noscript>
   <!-- End Facebook Pixel Code -->
 </head>
+<body>
+ 
 <main>
     <section class="Container">
         <div class="div-interna-1">
-            <div>
-            <img src = "img/LogoMaior.png">
-            </div>
+            <div class = "logo">
+                <a href = "index.html"><img src = "img/LogoMaior.png"></a> 
+                </div>
             <img src = "img/IlustraMaior.png">
             <h1>Quer trazer mais resultado para sua empresa?</h1>
 			<h3>
@@ -55,8 +58,8 @@
 			<h3>Baixe nosso e-book e descubra como esssa ferramenta pode alavancar suas vendas</h3>
             <form method="POST" action="https://smtl.gama.academy/leads/4a6b3a42-5ffc-11ea-92b8-cb0262e26cca">
            
-                <b>Nome:</b>
-               <br>
+                <p>Nome:</p>
+         
                 <input
                   name="name"
                   type="text"
@@ -64,17 +67,17 @@
                   title="Digite seu nome completo"
                   required
                 />
-                <br>Deixa a gente te conhecer melhor</br>
-                <b>Email:</b>
-                <br>
+                <p>Deixa a gente te conhecer melhor</p>
+                <p>Email:</p>
+  
                 <input
                   name="email"
                   type="email"
                   title="Digite um email válido"
                   required
                 />
-                <br>
-                Fica tranquilo, não mandamos Spam!
+            <p> Fica tranquilo, não mandamos Spam!</p>
+  
                 <input name="redirectTo" type="hidden" value="https://www.leadster.com.br/sucesso.html" />
               <!-- input name="debugMode" type="hidden" value="true" /> -->  
                 <input type="submit" />
@@ -84,32 +87,31 @@
     </section>
     
     <section class="Container-2">
-        <div>
+        <div class = "item">
             <img src = "img/Icon1-Web.png">  
+  
             <h3>Construa suas listas</h3>
             <h5>Você define seu perfil de cliente ideal e cria listas segmentadas de e-mails corporativos, a partir de redes sociais e sites de empresas.</h5>
-
+        
         </div>
-        <div>
-            <img src = "img/Icon2-Web.png">  
+        <div class = "item">
+            <img src = "img/Icon2-Web.png" >  
             <h3>Automatize suas abordagens</h3>
             <h5>Escale sua prospecção, sem perder a personalização, através de sequências enviadas a partir da caixa de e-mail.</h5>
         </div>
        
-        <div>
+        <div class = "item">
             <img src = "img/Icon3-Web.png">  
             <h3>Otimize sua prospecção</h3>
             <h5>Escale sua prospecção, sem perder a personalização, através de sequências enviadas a partir da caixa de e-mail.</h5>
         </div>
         
     </section>
+    
 </main>
-<footer class="rodape">
-    <div>
-        <img src = "img/LogoMenor.png">
-    </div>
-    Todos os direitos reservados
-</footer>
+
+
 </body>
+
 
 </html>
