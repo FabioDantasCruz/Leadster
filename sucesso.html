@@ -7,7 +7,32 @@
     <link rel="shortcut icon" href="img/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160180630-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-160180630-1');
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '520963592137213');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=520963592137213&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
 
 </head>
 <main>
@@ -31,32 +56,30 @@
     </section>
     
     <section class="Container-2">
-        <div>
+        <div class = "item">
             <img src = "img/Icon1-Web.png">  
+  
             <h3>Construa suas listas</h3>
             <h5>Você define seu perfil de cliente ideal e cria listas segmentadas de e-mails corporativos, a partir de redes sociais e sites de empresas.</h5>
-
+        
         </div>
-        <div>
-            <img src = "img/Icon2-Web.png">  
+        <div class = "item">
+            <img src = "img/Icon2-Web.png" >  
             <h3>Automatize suas abordagens</h3>
             <h5>Escale sua prospecção, sem perder a personalização, através de sequências enviadas a partir da caixa de e-mail.</h5>
         </div>
        
-        <div>
+        <div class = "item">
             <img src = "img/Icon3-Web.png">  
             <h3>Otimize sua prospecção</h3>
             <h5>Escale sua prospecção, sem perder a personalização, através de sequências enviadas a partir da caixa de e-mail.</h5>
         </div>
         
     </section>
+    
+    </section>
 </main>
-<footer class="rodape">
-    <div>
-        <img src = "img/LogoMenor.png">
-    </div>
-    Todos os direitos reservados
-</footer>
+
 </body>
 
 </html>
