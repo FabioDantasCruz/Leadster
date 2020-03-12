@@ -1,132 +1,153 @@
 *{margin: 0; padding: 0; font-size: 100%; border: nome; outline: none; font-weight:normal; box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;}
-a {text-decoration: none;}
-img {max-width: 100%;}
-
-
-
-.container{
-    width: 100%;
-    opacity: 1; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-family: 'Arial Black'}
+    a {text-decoration: none;}
+    img {max-width: 100%;}
     
-}
-
-.logo{width: 153px; height: 33;float: left;}
-
-
-.div-interna-1{
-    background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
-    width: 600px;
-    height: 40em;
-    background: #414767 0% 0% no-repeat padding-box;
-    opacity: 1;
-    text-align: center;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    float: left;
-    flex-grow: 1;   
-
-}
-
-.div-interna-1 h1{font-size: 1.3em; font-weight: bold; }
-.div-interna-1 h3{font-size: 1em; }
-.div-interna-1 b{font-weight: bold; }
-
-
-.div-interna-2{
-    width: 500px;
-    height: 40em;
-    background: #BEF99A 0% 0% no-repeat padding-box;
-    opacity: 1;
-    text-align: center;
-    font: Regular 40px/43px Arial Black;
-    letter-spacing: 0;
-    color: #404668;
-    float: right;
-    flex-grow: 1;
-
-
-}
-
-.div-interna-2 h1{font-size: 1.3em; font-weight: bold; }
-.div-interna-2 h3{font-size: 1em; }
-.div-interna-2 p{font-weight: bold; float: initial; padding: 2% 3% ;text-align: left}
-
-
-.div-interna-3{
-    background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
-    width: 100vw;
-    height: 70vh;
-    background: #414767 0% 0% no-repeat padding-box;
-    opacity: 1;
-    text-align: center;
-    font: Regular 40px/43px Arial Black;
-    letter-spacing: 0;
-    color: #FFFFFF;
+    
+    
+    .container{
+        width: 100%;
+        opacity: 1; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    
+    .logo{width: 153px; height: 33;float: left;}
+    
+    
+    .div-interna-1{
+        background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
+        width: 600px;
+        height: 40em;
+        background: #414767 0% 0% no-repeat padding-box;
+        opacity: 1;
+        text-align: center;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        float: left;
+        flex-grow: 1;   
+    
+    }
+    
+    .div-interna-1 h1{font-size: 1.3em; font-weight: bold; }
+    .div-interna-1 h3{font-size: 1em; }
+    .div-interna-1 b{font-weight: bold; }
+    
+    
+    .div-interna-2{
+        width: 500px;
+        height: 40em;
+        background: #BEF99A 0% 0% no-repeat padding-box;
+        opacity: 1;
+        text-align: center;
+        font: Regular 40px/43px Arial Black;
+        letter-spacing: 0;
+        color: #404668;
+        float: right;
+        flex-grow: 1;
+    
+    
+    }
     
 
-}
-a:hover{color: #ffffff;}
-a{color: crimson;}
-
-.div-interna-2 form{
-
-    align-items: flex-start ;
-    align-content: flex-start;
-}
-
-.div-interna-2 input {
-    padding: 15px;
-    border: 1px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    opacity: 1;
-    cursor: pointer;
-    flex: 1;
-    align-content: stretch;
-   
-}
-
-.container-2{
+    .div-interna-2 h1{font-size: 1.3em; font-weight: bold; }
+    .div-interna-2 h3{font-size: 1em; }
+    .div-interna-2 p{font-weight: bold; float: initial; padding: 2% 3% ;text-align: left}
     
-    width: 100%;
-    padding: 3% 4%;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: #404668D9;
-    opacity: 1;
-}
+    
+    .div-interna-2 form{
+    
+        align-items: flex-start ;
+        align-content: flex-start;
+    }
+    
+    .div-interna-2 input {
+        padding: 15px;
+        border: 1px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 20px;
+        opacity: 1;
+        cursor: pointer;
+        flex: 1;
+        align-content: stretch;
+       
+    }
 
+    #botao {
+        margin-top: 2%;
+        top: 573px;
+        left: 1047px;
+        width: 150px;
+        height: 50px;
+        background: #404668 0% 0% no-repeat padding-box;
+        border-radius: 32px;
+        opacity: 1;
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #FFFFFF;
+      
+    
+    
+    }
 
-.item {
-    width: 330px;
-    text-align: center;
-    font: Regular 16px/23px Arial Black;
-    letter-spacing: 0;
-    margin-bottom: 3%;
-    flex-grow: 1;
-}
-.item h3{font-size: 1.3em; font-weight: bold; }
-.item h5{font-size: 1em; }
+  
+    .div-interna-3{
+        background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
+        width: 100vw;
+        height: 70vh;
+        background: #414767 0% 0% no-repeat padding-box;
+        opacity: 1;
+        text-align: center;
+        font: Regular 40px/43px Arial Black;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        
+    
+    }
+    a:hover{color: #ffffff;}
+    a{color: crimson;}
+    
 
+    
+    .container-2{
+        
+        width: 100%;
+        padding: 3% 4%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: #404668D9;
+        opacity: 1;
+    }
+    
+    
+    .item {
+        width: 330px;
+        text-align: center;
+        font: Regular 16px/23px Arial Black;
+        letter-spacing: 0;
+        margin-bottom: 5%;
+        flex-grow: 1;
 
-
-.rodape{
-    width: 100%;
-    padding: 3%;
-    background:#F3F3F3 0% 0% no-repeat padding-box;
-    opacity: 1;
-    letter-spacing: 0;
-    color: #404668D9;
-    align-items: baseline;
-
-}
-
-.rodape p{text-align: right;  font-weight: bold;  font: Regular 16px/23px Arial Black; content: initial;}
-.rodape logo 
+    }
+    .item h3{font-size: 1.3em; font-weight: bold; }
+    .item h5{font-size: 1em; }
+    
+    
+    
+    .rodape{
+        width: 100%;
+        padding: 3%;
+        background:#F3F3F3 0% 0% no-repeat padding-box;
+        opacity: 1;
+        letter-spacing: 0;
+        color: #404668D9;
+        align-items: baseline;
+    
+    }
+    
+    .rodape p{text-align: right;  font-weight: bold;  font: Regular 16px/23px Arial Black; content: initial;}
