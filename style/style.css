@@ -13,14 +13,17 @@
         flex-wrap: wrap;
     }
     
-    .logo{  width: 153px; height: 33;float: left; display: flex; }
+    #logo{ width: 153px; 
+        height: 33;
+        float: left; 
+        margin:2%;
+        display: flex;
+        justify-content: first baseline;
+    }
     
     
-    .div-interna-1{
+    #div-interna-1{     
         padding-top: 3%;
-        background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
-        width: 600px;
-        height: 40em;
         background: #414767 0% 0% no-repeat padding-box;
         opacity: 1;
         text-align: center;
@@ -31,15 +34,15 @@
     
     }
     
-    .div-interna-1 h1{font-size: 1.3em; font-weight: bold; }
-    .div-interna-1 h3{font-size: 1em; }
-    .div-interna-1 b{font-weight: bold; }
+    #div-interna-1 imagemMaior{
+        margin:2%;
+        padding: 2%;
+        justify-self: center;
+    }
     
     
-    .div-interna-2{
-        padding-top: 3%;
-        width: 500px;
-        height: 40em;
+    #div-interna-2{
+        padding: 3%;
         background: #BEF99A 0% 0% no-repeat padding-box;
         opacity: 1;
         text-align: center;
@@ -52,23 +55,17 @@
     
     }
     
-
-    .div-interna-2 h2{font-size: 1.3em; font-weight: bold; }
-    .div-interna-2 h3{font-size: 1em; }
-    .div-interna-2 p{font-weight: bold; float: initial; padding: 2% 3% ;text-align: left}
     
-    
-    .div-interna-2 form{
+    #div-interna-2 form{
     
         align-items: flex-start ;
         align-content: flex-start;
     }
     
-    .div-interna-2 input {
+    #div-interna-2 input {
         padding: 15px;
         border: 1px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 20px;
+        border-radius: 28px;
         opacity: 1;
         cursor: pointer;
         flex: 1;
@@ -77,20 +74,16 @@
     }
 
     #botao {
-        margin-top: 2%;
-        top: 573px;
-        left: 1047px;
+        margin: 2%;
         width: 150px;
         height: 50px;
-        background: #404668 0% 0% no-repeat padding-box;
-        border-radius: 32px;
+        background: #404668;
+        border-radius: 28px;
         opacity: 1;
         font-weight: bold;
         letter-spacing: 0;
         color: #FFFFFF;
-      
-    
-    
+        border: none;
     }
 
     
@@ -114,10 +107,7 @@
 
     }
 
-
-  
     .div-interna-3{
-    
         background: transparent url('img/LogoMaior.png') 0% 0% no-repeat padding-box;
         width: 100vw;
         height: 33em;
@@ -137,10 +127,9 @@
 
 
     
-    .container-2{
-        
+    #container-2{
+        margin:2%;
         width: 100%;
-        padding: 3% 4%;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         opacity: 1;
         display: flex;
@@ -151,23 +140,18 @@
     }
     
     
-    .item {
-        width: 330px;
+    #item {
         text-align: center;
-        font: Regular 16px/23px Arial Black;
         letter-spacing: 0;
-        margin-bottom: 5%;
         flex-grow: 1;
 
     }
-    .item h3{font-size: 1.3em; font-weight: bold; }
-    .item h5{font-size: 1em; }
-    
-    
+    #item h3{font-size: 1.3em; font-weight: bold; }
+
     
     .rodape{
         width: 100%;
-        padding: 3%;
+        padding: 2%;
         background:#F3F3F3 0% 0% no-repeat padding-box;
         opacity: 1;
         letter-spacing: 0;
@@ -175,5 +159,4 @@
         align-items: baseline;
     
     }
-
     .rodape p{text-align: right;  font-weight: bold;  font: Regular 16px/23px Arial Black; content: initial;}
